@@ -1,0 +1,9 @@
+package edu.co.poligran.Vista
+
+import javafx.scene.layout.AnchorPane
+
+component Juego {
+	AnchorPane {
+		//TODO Add Nodes
+	}
+}

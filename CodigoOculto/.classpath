@@ -6,8 +6,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="src/ControladorConexcion/mysql-connector-j-9.6.0.jar"/>
+	<classpathentry kind="src" path="Test"/>
 	<classpathentry kind="lib" path="C:/Users/JEISSON/OneDrive/Documentos/Trabajos_Uni/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib/javafx.base.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -63,5 +64,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/JEISSON/Downloads/Trabajos_Uni/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
