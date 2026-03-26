@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.PantallaDeInicioControlador">
+<AnchorPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.co.poligran.Controlador.PantallaInicioControlador">
    <children>
       <ImageView fitHeight="463.0" fitWidth="689.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -22,7 +22,7 @@
       </ImageView>
       <ImageView fitHeight="463.0" fitWidth="689.0">
          <image>
-            <Image url="@../../../../../../../../OneDrive/Documentos/Trabajos_Uni/ChatGPT%20Image%2019%20feb%202026,%2010_38_31%20a.m..png" />
+            <Image url="@/recursos/Fondo1.png" />
          </image>
       </ImageView>
       <Rectangle arcHeight="40.0" arcWidth="40.0" height="31.0" layoutX="287.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="139.0" />
@@ -63,4 +63,4 @@
          </font>
       </Text>
   </children>
-</AnchorPane>
+</AnchorPane> 
