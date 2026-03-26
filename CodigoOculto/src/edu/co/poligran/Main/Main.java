@@ -13,10 +13,10 @@ public class Main extends Application {
         try {
             // Cargar el archivo FXML desde la ruta correcta
             FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/edu/co/poligran/Vista/PantallaInicio.fxml")
+                getClass().getResource("/edu/co/poligran/Vista/MenuJuego.fxml")
             );
             System.out.println(
-            	    getClass().getResource("/edu/co/poligran/Vista/PantallaInicio.fxml")
+            	    getClass().getResource("/edu/co/poligran/Vista/MenuJuego.fxml")
             	);
             Parent root = loader.load();
 
