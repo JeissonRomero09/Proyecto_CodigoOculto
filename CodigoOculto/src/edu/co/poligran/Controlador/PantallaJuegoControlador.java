@@ -8,7 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
 import javafx.scene.input.MouseEvent;
 
-public class JuegoControlador {
+public class PantallaJuegoControlador {
 
     @FXML private GridPane gridCasillas;
     private Partida partida = new Partida();

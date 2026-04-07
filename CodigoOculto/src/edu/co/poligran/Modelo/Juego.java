@@ -1,4 +1,4 @@
-package edu.co.poligran.Modelo;
+	package edu.co.poligran.Modelo;
 
 public class Juego {
 

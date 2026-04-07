@@ -31,7 +31,7 @@
             <Font name="MT Extra" size="14.0" />
          </font>
       </Text>
-      <Button layoutX="278.0" layoutY="179.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(#4b4b4b, #1f1f1f); -fx-background-radius: 40;" text="Jugar Como Invitado" textFill="WHITE" wrapText="true">
+      <Button layoutX="278.0" layoutY="179.0" mnemonicParsing="false" onAction="#irMenuJuego" prefHeight="32.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(#4b4b4b, #1f1f1f); -fx-background-radius: 40;" text="Jugar Como Invitado" textFill="WHITE" wrapText="true">
          <font>
             <Font name="MT Extra" size="14.0" />
          </font>
@@ -63,4 +63,4 @@
          </font>
       </Text>
   </children>
-</AnchorPane> 
+</AnchorPane>

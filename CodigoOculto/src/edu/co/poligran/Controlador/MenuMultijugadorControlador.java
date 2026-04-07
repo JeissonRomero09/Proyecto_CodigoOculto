@@ -1,5 +1,5 @@
 package edu.co.poligran.Controlador;
 
-public class MenuControlador {
+public class MenuMultijugadorControlador {
 
 }
