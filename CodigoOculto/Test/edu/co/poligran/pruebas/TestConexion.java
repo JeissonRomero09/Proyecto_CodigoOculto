@@ -10,13 +10,19 @@ import edu.co.poligran.Modelo.Conexion;
 
 public class TestConexion {
 
-    @Test
-    public void probarConexionBD() {
+	@Test
+	public void probarConexionBD() {
 
-        Conexion conexion = new Conexion();
-        Connection cn = conexion.getConnection();
+		Connection cn = Conexion.conectar();
 
-        assertNotNull(cn, "La conexión a la base de datos falló");
+		assertNotNull(cn, "La conexión a la base de datos falló");
 
-    }
+		System.out.println("Conexión exitosa en test");
+
+		try {
+			cn.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }

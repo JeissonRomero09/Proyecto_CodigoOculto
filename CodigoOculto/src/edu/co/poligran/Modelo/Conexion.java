@@ -5,25 +5,23 @@ import java.sql.DriverManager;
 
 public class Conexion {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/CodigoSecreto";
-    private static final String USER = "root";
-    private static final String PASSWORD = "";
+	private static final String URL = "jdbc:mysql://localhost:3306/CodigoSecreto";
+	private static final String USER = "root";
+	private static final String PASSWORD = "";
 
-    public Connection getConnection() {
+	//  MÉTODO ESTÁTICO (IMPORTANTE)
+	public static Connection conectar() {
 
-        Connection con = null;
+		Connection con = null;
 
-        try {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection(URL, USER, PASSWORD);
+			System.out.println("Conexión exitosa");
+		} catch (Exception e) {
+			System.out.println("Error de conexión: " + e.getMessage());
+		}
 
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection(URL, USER, PASSWORD);
-
-        } catch (Exception e) {
-
-            System.out.println("Error de conexión: " + e.getMessage());
-
-        }
-
-        return con;
-    }
+		return con;
+	}
 }
